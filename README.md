@@ -1,4 +1,6 @@
-# terraform-vra-vmapps-vra-machine
+# terraform-vra-machine
+
+Terraform module — creates and manages a vRA / Aria Automation machine (catalog-item VM) resource within a project.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
