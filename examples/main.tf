@@ -6,13 +6,13 @@ provider "vra" {
 }
 
 module "machine" {
-  source                     = "../../"
-  virtualmachine_name        = var.virtual_machine_name
-  virtualmachine_description = var.virtual_machine_description
-  project_id                 = var.project_name
-  image                      = var.image
-  flavor                     = var.flavor
-  constraints                = var.constraints
-  image_disk_constraints     = var.image_disk_constraints
-  tags                       = var.tags
+  source                      = "../../"
+  virtual_machine_name        = var.virtual_machine_name
+  virtual_machine_description = var.virtual_machine_description
+  project_name                = var.project_name
+  image                       = var.image
+  flavor                      = var.flavor
+  constraints                 = var.constraints
+  image_disk_constraints      = var.image_disk_constraints
+  tags                        = var.tags
 }
